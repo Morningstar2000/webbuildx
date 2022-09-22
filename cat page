@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Cats photo</title>
+</head>
+<body>
+    <header>
+        <h1>Cat Photo App</h1>
+    </header> <br><br><br><br> 
+    <section>
+        <h2>Cat Photos</h2>
+        <p>Click here to view more <a href="https://google.com/cat-photos"> cat Photos...</a></p>
+    </section>
+    <section>
+       <a href="https://www.google.com/cat"><img src="cat img\download (2).jpg" alt="cat photo 1"></a>
+    </section>
+    <section>
+        <h2>Cat List</h2>
+        <h3>Things can love</h3>
+        <ul>
+            <li>Cat nip</li>
+            <li>Laser pointers</li>
+            <li>Lasagna</li>
+        </ul>
+        <a href="https://www.google.com/cat"><img src="cat img\download (1).jpg" alt="cat having fun"></a><figcaption>Cats having fun</figcaption>
+    </section>
+    <section>
+        <h3>Top 3 things cat hate</h3>
+        <ul>
+            <li>Flea Treatment</li>
+            <li>Thunder</li>
+            <li>Other cats</li>
+        </ul>
+        <a href="https://www.google.com/cat"><img src="cat img\download.jpg" alt=""></a><figcaption>Cats sleeping peacefully</figcaption>
+    </section>
+    <section>
+        <h2>Cat form</h2>
+        <form action="">
+            <fieldset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <input type="radio" name="activist" value="indoor" checked>
+                <label for="indoor">Indoor</label>
+                <input type="radio" name="activist" value="outdoor">
+                <label for="outdoor">Outdoor</label>
+            </fieldset> <br>
+            <fieldset>
+                <legend>What's your cat personality</legend>
+                <input type="checkbox" name="personality" value="loving">loving
+                <input type="checkbox" name="personality" value="lazy" checked>lazy
+                <input type="checkbox" name="personality" value="energetic">Energetic
+            </fieldset> <br>
+            <input type="email" name="catphoto" placeholder="cat photo url.." id="url" required>
+            <br id="break">
+            <input type="submit" id="submit">
+        </form>
+    </section> <br>
+    <footer>
+        <p>No copyright - <a href="https://www.freecodecamp.org"> freecodecamp.org</p></a>
+    </footer>
+</body>
+</html>
